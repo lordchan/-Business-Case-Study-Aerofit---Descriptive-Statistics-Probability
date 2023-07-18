@@ -18,4 +18,29 @@ The KP281 is an entry-level treadmill that sells for $1,500.
 The KP481 is for mid-level runners that sell for $1,750.
 The KP781 treadmill is having advanced features that sell for $2,500.
 
-### The project is ongoing, will be finished soon.
+## What and all is involved in the process of solving this case study.
+1. Importing the dataset and doing usual data analysis steps like checking the structure & characteristics of the dataset.
+2. Detecting Outliers (using boxplot, “describe” method by checking the difference between mean and median)
+3. Checking if features like marital status, age have any effect on the product purchased (using countplot, histplots, boxplots etc)
+4. Representing the marginal probability like - what percent of customers have purchased KP281, KP481, or KP781 in a table (can use pandas.crosstab here)
+5. Checking the correlation among different factors using heat maps or pair plots.
+6. With all the above steps we can answer questions like: What is the probability of a male customer buying a KP781 treadmill?
+7. Customer Profiling - Categorization of users.
+8. Probability- marginal, conditional probability.
+9. Some recommendations and actionable insights, based on the inferences.
+
+The jupyter notebook code is [here](https://github.com/lordchan/-Business-Case-Study-Aerofit---Descriptive-Statistics-Probability/blob/main/Aerofit.ipynb)
+
+## Recommendations:
+1. We should try to sell the product KP481 to middle class females who want to run more.
+2. We should market the product KP281 to Middle class males and females who want to run less.
+3. We should recommend KP281 to partnered female and KP481 to single females.
+4. We should market the product KP281 to wealthy individuals(both males and females) who want to run more.
+5. For fit males who want to use less we should recommend KP481, whereas for fit females who want to use less we should recommend KP281.
+6. Overall casual users whether fit or not should be recommended KP281 or KP481.
+7. Fit individuals(males/females) who want to use regularly should be recommended KP781.
+8. Regular users(males/females) who are not fit should be recommended KP281 and KP481.
+9. Middle income unfit individuals should be recommended KP281.
+10. KP781 is best suited for Wealthy and fit individuals.
+11. Wealthy individuals who are not fit should be recommended KP481.
+12. Middle income fit females should be recommended KP481.
