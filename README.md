@@ -26,8 +26,9 @@ The KP781 treadmill is having advanced features that sell for $2,500.
 5. Checking the correlation among different factors using heat maps or pair plots.
 6. With all the above steps we can answer questions like: What is the probability of a male customer buying a KP781 treadmill?
 7. Customer Profiling - Categorization of users.
-8. Probability- marginal, conditional probability.
-9. Some recommendations and actionable insights, based on the inferences.
+8. Categorization of numerical data based on age:young/old, income:wealthy/middle income, fitness:fit/not fit, usage:regular/casual, education:high/low in order to classify users and use crosstab function in pandas. 
+9. Probability- marginal, conditional probability using pandas crosstab. This is used to find the probability of a segment of customer like educated - fit - male or high income-regular using - partnered female etc., of buying a certain product.
+10. Some recommendations and actionable insights, based on the inferences.
 
 The jupyter notebook code is [here](https://github.com/lordchan/-Business-Case-Study-Aerofit---Descriptive-Statistics-Probability/blob/main/Aerofit.ipynb)
 
