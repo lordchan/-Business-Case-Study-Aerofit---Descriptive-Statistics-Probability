@@ -11,7 +11,6 @@ The market research team at AeroFit wants to identify the characteristics of the
 Perform descriptive analytics to create a customer profile for each AeroFit treadmill product by developing appropriate tables and charts.
 For each AeroFit treadmill product, construct two-way contingency tables and compute all conditional and marginal probabilities along with their insights/impact on the business.
 
-## Dataset [link](https://github.com/lordchan/-Business-Case-Study-Aerofit---Descriptive-Statistics-Probability/blob/main/Aerofit_dataset.csv)
 ## Product Portfolio:
 
 The KP281 is an entry-level treadmill that sells for $1,500.
